@@ -43,7 +43,7 @@ const Hero = () => {
           projects, write blogs, and connect with opportunities.
         </motion.p>
         <motion.div variants={fadeBlurUp} className="flex justify-start -ml-2 mt-3">
-          <Link to={"/contact"}>
+          <Link to={"/students"}>
             < Button 
               name="Explore Students"
               icon={<FaArrowRight />}
@@ -52,14 +52,12 @@ const Hero = () => {
               }
             />
           </Link>
-          <Link to={"/students"}>
             <Button
               name="Learn More"
               style={
                 "text-white bg-transparent border-2 border-border  transform hover:-translate-y-1 transition duration-200"
               }
             />
-          </Link>
         </motion.div>
       </div>
       {/* image */}

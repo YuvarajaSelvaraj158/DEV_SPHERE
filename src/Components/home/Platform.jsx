@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   FaUsers,
   FaBookOpen,
@@ -25,12 +25,12 @@ const platformFeatures = [
     title: "Blogs Platform",
     description: "Read and share developer stories, tutorials and insights.",
     icon: FaBookOpen,
-    path:"/blog"
+    path:"/blogs"
   },
 
   {
     id: 3,
-    title: "Gallery",
+    title: "gallery",
     description: "Capture moments and showcase your achievements.",
     icon: FaImages,
     path:"/gallery"
@@ -41,7 +41,7 @@ const platformFeatures = [
     title: "Resume Builder",
     description: "Build ATS-friendly resumes and stand out to recruiters.",
     icon: FaFileAlt,
-    path:"/resumeBuilder"
+    path:""
   },
 
   {
@@ -49,7 +49,7 @@ const platformFeatures = [
     title: "AI Interview",
     description: "Practice mock interviews and improve your confidence.",
     icon: FaRobot,
-    path:"aiReview"
+    path:""
   },
 
   {
@@ -57,7 +57,7 @@ const platformFeatures = [
     title: "Career Roadmap",
     description: "Plan your learning journey and achieve career goals.",
     icon: FaRoad,
-    path:"/career"
+    path:""
   },
 ];
 

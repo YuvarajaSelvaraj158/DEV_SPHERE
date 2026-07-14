@@ -83,7 +83,7 @@ const Banner = () => {
          Join DeveSphere AI today and tad take the step towards building your developer identity
         </motion.p>
         <motion.div variants={fadeBlurUp} className="flex justify-start -ml-2 mt-3">
-          <Link to={"/contact"}>
+          <Link to={"/register"}>
             <Button
               name="Create Account"
               icon={<FaArrowRight />}
